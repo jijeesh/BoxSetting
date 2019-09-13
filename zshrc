@@ -1,4 +1,4 @@
-export ZSH="/Users/danielshotonwa/.oh-my-zsh"
+export ZSH="~/.oh-my-zsh"
 # Use spaceship theme
 
 ZSH_THEME="spaceship"
