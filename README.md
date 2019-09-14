@@ -31,9 +31,9 @@ cd BoxSetting
 - Download Vundle
 - Open Vim and run :PluginInstall
 ```
-cp vimrc ~/.vimrc
 cp tmux.conf ~/.tmux.conf
 cp vimrc ~/.vimrc
+cp zshrc ~/.zshrc
 ```
 
 ### Hurray, The TERMINAL is yours
@@ -46,4 +46,9 @@ I changed my terminal recently, I added spaceship-prompt.
 npm install -g spaceship-prompt
 git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
 ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+```
+You might face a little error from you-complete-me, do this to fix it.
+```
+cd ~/.vim/bundle/YouCompleteMe
+ ./install.py
 ```
