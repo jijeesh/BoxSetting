@@ -20,7 +20,7 @@ I use Vundle as my Plugin manager. Install Vundle:
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 ```
-git clone https://github.com/Danielshow/BoxSetting
+git clone https://github.com/jijeesh/BoxSetting
 cd BoxSetting
 ```
 
