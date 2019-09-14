@@ -10,7 +10,11 @@ This Box setting setup my terminal using VIM. Tmux, Item and Zsh
 - Copy zshrc to your root file `.zshrc` using `cp vimrc ~/.vimrc`
 - Download Vundle
 - Open Vim and run :PluginInstall
-
+```
+cp vimrc ~/.vimrc
+cp tmux.conf ~/.tmux.conf
+cp vimrc ~/.vimrc
+```
 
 ### Hurray, The TERMINAL is yours
 
